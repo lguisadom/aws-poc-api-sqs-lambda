@@ -1,0 +1,25 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Lambda build artifacts
+lambda/dist/
+lambda/*.zip
+lambda/node_modules/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp

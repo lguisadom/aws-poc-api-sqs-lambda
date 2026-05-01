@@ -1,0 +1,11 @@
+{
+  "name": "notifications-consumer",
+  "version": "1.0.0",
+  "description": "Lambda consumer for notifications SQS queue",
+  "main": "src/index.mjs",
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "private": true
+}
